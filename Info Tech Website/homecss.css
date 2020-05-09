@@ -1,0 +1,64 @@
+@font-face{
+    font-family: Nexa;
+    src: url(Exo2-Italic-VariableFont_wght.ttf);
+}
+h1{
+    color: #FE938C;
+}
+body{
+    width: 75%;
+    margin: 0 auto;
+}
+.topbar{
+    font-family: Nexa;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+}
+#name{
+    font-size: 1.25em;
+    color: black;
+    text-decoration: none;
+}
+.navbar{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.navbar a{
+    font-size: 1.25em;
+      color: black;
+    text-decoration: none;
+}
+
+.introduction{
+    position: relative;
+    top: 50px;
+    font-family: Nexa;
+    font-size: 1.25rem;
+}
+.contact{
+    position: relative;
+    top: 100px;
+    font-family: Nexa;
+    font-size: 1.25rem;
+    text-align: right;
+}
+
+.button{
+    background-color: #FE938C;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+}
+.button:hover{
+    background-color: rgb(151, 89, 85);
+}
